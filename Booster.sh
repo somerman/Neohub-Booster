@@ -38,7 +38,6 @@ function isAway() {
     printf 'ERROR: coprocess timed out after 5s\n' >&2
     printf 'Neohub : %s\n' "$response"  
     cleanup
-    
   fi
 }
 
