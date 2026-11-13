@@ -18,3 +18,4 @@ For clarity, there is no command optimisation here, mostly because it could obsc
 Supply arguments to set ip address of the neohub, the low threshold temperature to initiate a boost, the boost time (in seconds), the name of the neoswitch,(which should be the same as in your controlling app), and the numerical ID of the monitoring neostat. Make sure everything has been paired successfully. 
 (Find the id of your neostat from the Zones displayed in the terminal. Set this as an argument.)
 N.B. UK Regulations require Immersion Heaters to be run from a dedicated supply with a double pole switch to isolate. Do not use the Neoswitch for this, just to fire a DP Contactor. Use a qualified electrician to install. 
+N.B. 2. The immersion heater temperature is still controlled by its own embedded thermostat and overheat cutout. 
